@@ -1,0 +1,96 @@
+# ===========================
+# GENERAL
+# ===========================
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de backup
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+nohup.out
+
+# ===========================
+# GIT / EDITORES
+# ===========================
+# Configuración de IDEs
+.vscode/
+.idea/
+.Rproj.user/
+.history/
+*.code-workspace
+
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.env
+.venv/
+venv/
+pip-wheel-metadata/
+.pytest_cache/
+.ipynb_checkpoints/
+jupyter_cache/
+
+# ===========================
+# R / RStudio
+# ===========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+.Rprofile
+.Renviron
+.Rproj
+*.RData
+*.Rhistory
+*.Rout
+*.Rout.save
+*.Rcheck/
+
+# Paquetes y caché
+.Rbuildignore
+.Rproj.user
+.Rproj
+.Rhistory
+.RDataTmp
+.RData
+.cache/
+.packrat/
+renv/library/
+renv/staging/
+.Rprofile.site
+
+# ===========================
+# NEXTFLOW
+# ===========================
+# Carpetas generadas automáticamente
+work/
+.results/
+output/
+outputs/
+.nf-test/
+.nf-work/
+.nextflow/
+.nextflow.*
+.nextflow.log
+trace.txt
+timeline.html
+report.html
+dag.png
+
